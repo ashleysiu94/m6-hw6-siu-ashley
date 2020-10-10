@@ -69,7 +69,9 @@ section p {
 .btn {
   background-color: #6005C2;
   border-color: #6005C2;
-  float: right;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
 }
 
 .hide {
