@@ -32,6 +32,12 @@ h2 {
   justify-content: center;
 }
 
+p {
+  color: #6005C2;
+  font-size: 2rem;
+  text-align: center;
+}
+
 section {
   border: 10px solid #6005C2;
   border-radius: 10px;
@@ -45,7 +51,6 @@ section {
 }
 
 section p {
-  color: #6005C2;
   font-size: 5rem;
 }
 
@@ -59,4 +64,14 @@ section p {
 
 #box3 {
   background-color: #A5FF00;
+}
+
+.btn {
+  background-color: #6005C2;
+  border-color: #6005C2;
+  float: right;
+}
+
+.hide {
+  display: none;
 }
